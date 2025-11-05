@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0b0f14;
+  color: #e8eef6;
+  text-align: center;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 40px 20px 20px;
+  background: #10161d;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+h1 { font-size: 2rem; color: #2de689; }
+header p { color: #9aa4b2; font-size: 1rem; }
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg,#2de689,#1fbf73);
+  color: #0b1a11;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.btn:hover { transform: scale(1.05); }
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.card {
+  background: #111922;
+  border: 1px solid #1b2230;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.card:hover { transform: translateY(-5px); }
+h3 { color: #2de689; margin-bottom: 10px; }
+
+footer {
+  background: #0f141b;
+  padding: 15px;
+  color: #8d98a6;
+  font-size: 0.9rem;
+}
